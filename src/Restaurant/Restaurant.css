@@ -1,0 +1,103 @@
+.GridLayout {
+  width: 100%;
+}
+
+.GridBackground {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+}
+
+.ImageBackground {
+  width: 100%;
+  height: 20rem;
+  z-index: 1;
+  object-fit: cover;
+  position: absolute;
+}
+
+.GradientBackground {
+  width: 100%;
+  height: 20rem;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(
+    rgba(100, 51, 28, 0.5),
+    rgba(51, 15, 61, 1)
+  );
+}
+
+.Title {
+  margin-left: 30px;
+  position: absolute;
+  z-index: 3;
+  font-family: "Product Sans", sans-serif;
+  color: #ffffff;
+}
+
+.GridView {
+  margin-top: -10rem;
+  position: absolute;
+  z-index: 3;
+}
+
+.Card {
+  background: #ffffff;
+  width: 350px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.Card:hover {
+  box-shadow: rgba(17, 12, 46, 0.25) 0px 12px 40px 0px;
+  cursor: pointer;
+}
+
+.Card img {
+  aspect-ratio: 2;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.BusinessName,
+.BusinessAddress,
+.BusinessRating {
+  font-family: "Product Sans", sans-serif;
+}
+
+.BusinessName {
+  height: 80px;
+}
+
+.BusinessAddress {
+  color: #888888;
+  height: 20px;
+}
+
+.Data {
+  padding-inline: 24px;
+}
+
+.SectionRating {
+  display: flex;
+  flex-direction: row;
+}
+
+.BusinessRating {
+  float: left;
+}
+
+.BusinessSpace {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.BusinessPrice {
+  float: right;
+  color: #888888;
+}
