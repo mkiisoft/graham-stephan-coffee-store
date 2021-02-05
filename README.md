@@ -1,7 +1,7 @@
 # Graham Stephan - Code Challenge App - Coffee Store
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/mkiisoft/graham-stephan-coffee-store/master/screenshot.png" />
+<img src="https://raw.githubusercontent.com/mkiisoft/graham-stephan-coffee-store/main/screenshot.png" />
 </p>
 
 # LINK https://graham-stephan-coffee-store.surge.sh
