@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/mkiisoft/graham-stephan-coffee-store/main/screenshot.png" />
 </p>
 
-# LINK https://graham-stephan-coffee-store.surge.sh
+# LINK: https://graham-stephan-coffee-store.surge.sh
 
 ## Available Scripts
 
